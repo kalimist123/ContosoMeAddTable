@@ -39,7 +39,10 @@ namespace ContosoUniversity.Infrastructure
                     {
                         entity = await dbContext.Set<Student>().FindAsync(id);
                     }
-
+                    else if (bindingContext.ModelType == typeof(SchoolBook))
+                    {
+                        entity = await dbContext.Set<SchoolBook>().FindAsync(id);
+                    }
                     bindingContext.Result = entity != null ? ModelBindingResult.Success(entity) : bindingContext.Result;
                 }
             }

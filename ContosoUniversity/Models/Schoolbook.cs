@@ -22,5 +22,8 @@ namespace ContosoUniversity.Models
 
         [StringLength(50, MinimumLength = 3)]
         public string Author { get; set; }
+
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
     }
 }
