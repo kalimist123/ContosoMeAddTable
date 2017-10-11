@@ -1,0 +1,37 @@
+﻿@model ContosoUniversity.Features.SchoolBooks.Details.Model
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SchoolBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <display-label-tag for="Name"/>
+        </dt>
+        <dd>
+            <display-tag for="Name" />
+        </dd>
+        <dt>
+            <display-label-tag for="Author" />
+        </dt>
+        <dd>
+            <display-tag for="Author" />
+        </dd>
+        <dt>
+            <display-label-tag for="Price" />
+        </dt>
+        <dd>
+            <display-tag for="Price" />
+        </dd>
+      
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
