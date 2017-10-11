@@ -27,3 +27,4 @@
 *.dll
 *.pdb
 *.cache
+*.config
