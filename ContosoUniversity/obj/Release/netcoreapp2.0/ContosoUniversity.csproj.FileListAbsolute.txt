@@ -1,0 +1,10 @@
+D:\projects\ContosoMeAddTable\ContosoUniversity\bin\Release\netcoreapp2.0\ContosoUniversity.deps.json
+D:\projects\ContosoMeAddTable\ContosoUniversity\bin\Release\netcoreapp2.0\ContosoUniversity.runtimeconfig.json
+D:\projects\ContosoMeAddTable\ContosoUniversity\bin\Release\netcoreapp2.0\ContosoUniversity.runtimeconfig.dev.json
+D:\projects\ContosoMeAddTable\ContosoUniversity\bin\Release\netcoreapp2.0\ContosoUniversity.dll
+D:\projects\ContosoMeAddTable\ContosoUniversity\bin\Release\netcoreapp2.0\ContosoUniversity.pdb
+D:\projects\ContosoMeAddTable\ContosoUniversity\obj\Release\netcoreapp2.0\ContosoUniversity.csproj.CoreCompileInputs.cache
+D:\projects\ContosoMeAddTable\ContosoUniversity\obj\Release\netcoreapp2.0\ContosoUniversity.AssemblyInfoInputs.cache
+D:\projects\ContosoMeAddTable\ContosoUniversity\obj\Release\netcoreapp2.0\ContosoUniversity.AssemblyInfo.cs
+D:\projects\ContosoMeAddTable\ContosoUniversity\obj\Release\netcoreapp2.0\ContosoUniversity.dll
+D:\projects\ContosoMeAddTable\ContosoUniversity\obj\Release\netcoreapp2.0\ContosoUniversity.pdb
