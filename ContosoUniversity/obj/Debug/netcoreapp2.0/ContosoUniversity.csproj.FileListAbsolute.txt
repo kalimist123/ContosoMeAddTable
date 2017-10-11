@@ -20,3 +20,14 @@ D:\projects\ContosoMeAddTable\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoU
 D:\projects\ContosoMeAddTable\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.pdb
 D:\projects\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csproj.CoreCompileInputs.cache
 D:\projects\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfoInputs.cache
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.deps.json
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.json
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.dev.json
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.dll
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.pdb
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csprojResolveAssemblyReference.cache
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csproj.CoreCompileInputs.cache
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfoInputs.cache
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfo.cs
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.dll
+E:\Projects\Personal\ContosoMeAddTable\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.pdb

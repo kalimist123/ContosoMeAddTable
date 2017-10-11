@@ -34,7 +34,7 @@ namespace ContosoUniversity.Features.SchoolBooks
 
             public QueryHandler(SchoolContext context) => _context = context;
 
-            public Task<Model> Handle(Query message) => _context.Departments
+            public Task<Model> Handle(Query message) => _context.SchoolBooks
                 .FromSql(@"SELECT * FROM SchoolBook WHERE SchoolBookID = {0}", message.Id)
                 .ProjectTo<Model>()
                 .SingleOrDefaultAsync();
