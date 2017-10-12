@@ -28,3 +28,8 @@
 *.pdb
 *.cache
 *.config
+*.dll
+*.cache
+*.cache
+*.json
+.vs/ContosoUniversity/v15/.suo
