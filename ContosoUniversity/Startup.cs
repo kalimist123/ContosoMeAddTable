@@ -14,6 +14,7 @@ using FluentValidation.AspNetCore;
 using HtmlTags;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace ContosoUniversity
 {
@@ -38,6 +39,8 @@ namespace ContosoUniversity
 
             services.AddHtmlTags(new TagConventions());
 
+            services.AddLogging();
+
             services.AddMvc(opt =>
                 {
                     opt.Filters.Add(typeof(DbContextTransactionFilter));
@@ -49,7 +52,7 @@ namespace ContosoUniversity
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -62,6 +65,9 @@ namespace ContosoUniversity
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            loggerFactory.AddConsole(LogLevel.Information);
+
+          
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
